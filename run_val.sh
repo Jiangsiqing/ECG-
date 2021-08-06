@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES='1' python val.py --config-file ./config/u-net_dice+bce.yml

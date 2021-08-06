@@ -1,0 +1,9 @@
+OUTPUT_DIR: '/data/yhy/project/ecg_generation/output/interval'
+DESC: 'u-net_dice+bce_lead2'
+
+MODEL:
+  MODEL: 'u-net'
+  LOSS: 'bce+dice'
+
+DATA:
+  LEAD: 2

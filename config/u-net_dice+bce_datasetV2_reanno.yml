@@ -1,0 +1,12 @@
+OUTPUT_DIR: '/data/yhy/project/ecg_generation/output/interval'
+DESC: 'unet_bce_dice_dataset_v2_reanno'
+
+MODEL:
+  MODEL: 'u-net'
+  LOSS: 'bce+dice'
+
+DATA:
+  anno_dir: '/data/zxs/data/ecg_tiger/interval_json_done_1000'
+  train_json_path: '/data/yhy/project/ecg_generation/dataset/tianchi_1000_reanno_train_jsons.txt'
+  test_json_path: '/data/yhy/project/ecg_generation/dataset/tianchi_1000_reanno_test_jsons.txt'
+

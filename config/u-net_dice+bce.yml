@@ -1,0 +1,6 @@
+OUTPUT_DIR: '/data/yhy/project/cloud_ecg/period/output/u-net/'
+DESC: 'u-net_bce+dice'
+
+MODEL:
+  MODEL: 'u-net'
+  LOSS: 'bce+dice'

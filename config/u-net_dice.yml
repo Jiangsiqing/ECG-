@@ -1,0 +1,5 @@
+OUTPUT_DIR: '/data/yhy/project/cloud_ecg/period/output/u-net/'
+DESC: 'u-net_dice'
+
+MODEL:
+  MODEL: 'u-net'

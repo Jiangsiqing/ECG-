@@ -1,2 +1,2 @@
-# ECG-
-分割心拍
+# singal-ECG Segmentation 
+分割心拍（ECG Segmentation ）
